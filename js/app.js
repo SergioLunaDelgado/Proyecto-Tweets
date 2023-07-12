@@ -89,6 +89,8 @@ function limpiarHTML() {
         listaTweets.removeChild(listaTweets.firstChild);
     }
     formulario.reset();
+    document.querySelector('#tweet').focus();
+    
 }
 
 /* Borrar Tweet */
